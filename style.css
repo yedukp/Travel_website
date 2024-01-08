@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    text-decoration: none;
+    scroll-behavior: smooth;
+   
+}
+
+.header{
+    height: 100%;
+
+    
+}
+
+
+
+/* Navbar */
+.header img{
+    width: 200px;
+    float: left;
+    color: black;
+    
+}
+.navbar-toggler span{
+    color: rgb(255, 255, 255);
+}
+.navbar-nav{
+     margin-left: 20px;
+    ;
+}
+.nav-item .nav-link{
+    font-size: 20px;
+    font-weight: 550;
+    color: rgba(105, 105, 163, 0.728);
+    transition: 0.5s ease;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.nav-item .nav-link:hover{
+    background-color: rgba(105, 105, 163, 0.728);
+    color: white;
+}
+.navbar form button:hover{
+    color: white;
+}
+.navbar{
+    font-family: 'Nunito', sans-serif;
+    background-color: rgba(147, 187, 222, 0.228);
+}
+#page1best{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("images/bg.avif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-x: center;
+    width: 100%;
+}
+#page1best .col-md-8{
+    padding-top: 80px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(235, 229, 209);
+    opacity: 0.9;
+    font-size: 25px;
+    padding-bottom: 200px;
+/*     text-shadow: 1px 1px 3px black;
+ */
+}
+#page1best .col-md-8 h1{
+    opacity: 0.5;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 55px;
+/*     text-shadow: 1px 1px 3px black;
+ */
+}
+#page1best .col-md-8 h1:hover{
+    color: rgba(105, 105, 163, 0.728);
+    transition: 0.4s ease-in-out;
+    opacity: 1;
+}
+#page1best .col-md-8 span{
+    font-size: 50px;
+    
+    font-family: 'Lexend', sans-serif;
+    /* padding-top: -50px; */
+    color: white;
+}
+#page1best .col-md-8 p{
+    color: white;
+}
+#page1best .col-md-8 button{
+    color: rgb(207, 176, 22);
+
+}
+
+@media(max-width:765){
+    #page1best .col-md-8 h1{
+        font-size: 20px;
+    }
+    #page1best .col-md-8 span{
+        font-size: 25px;
+    }
+    #page1best .col-md-8 p{
+        font-size: 3px;
+    }
+}
+
+
+
+/* Packages */
+.main-text h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px black;
+}
+.main-text span{
+    color: rgba(105, 105, 163, 0.728);
+    
+}
+.packages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 17px;
+}
+.packages .card .card-body{
+    background: transparent;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.packages .card .card-body h3{
+    font-size: 15px;
+}
+.card:hover{
+    transform: scale(1.02);
+    transition: 0.6s;
+}
+.details_card i{
+    letter-spacing: px;
+    margin-left: 6px;
+}
+
+
+.banner{
+    height: 80%;
+    background-image: url(./images/pexels-oleksandr-p-2166553.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-top: 4rem;
+
+}
+.banner_highlights{
+    padding: 70px 0px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #fff;
+}
+.booking_btn{
+    width: 100px;
+    padding: 8px;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+.users_feedback{
+    padding: 100px 100px;
+    
+}
+.users_feedback h1{
+    text-align: center;
+}
+.users_review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom: 50px;
+    border-radius: 20%;
+}
+.users_review p{
+    padding: 20px 15px 15px 10px;
+}
+.users_feedback img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 42%;
+}
+.users_review i{
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: rgba(63, 180, 227, 0.895);
+    margin-top: 10px;
+}
+
+.footer{
+    padding: 50px 20px;
+    background-image: linear-gradient( rgba(105, 105, 163, 0.728),rgb(49, 49, 49));
+    color: #fff;
+}
+.footer_logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer h4{
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 30px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
